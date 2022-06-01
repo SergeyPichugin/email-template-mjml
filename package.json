@@ -1,0 +1,12 @@
+{
+  "name": "email_message",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "mjml -w ./templates/*.mjml -o ./templates/dist/"
+  },
+  "dependencies": {
+    "mjml": "^4.12.0"
+  }
+}

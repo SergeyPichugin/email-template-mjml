@@ -1,0 +1,12 @@
+<mj-wrapper background-color="#EDEDED" border-radius="0 0 17px 17px" padding-top="0px" padding-left="1px" padding-right="1px" padding-bottom="1px">
+    <mj-section background-color="#FFF" border-radius="0 0 16px 16px">
+        <mj-group>
+            <mj-column>
+                <mj-image align="left" width="137px" src="https://itsblog.ru/email/logo1.png" />
+            </mj-column>
+            <mj-column>
+                <mj-image align="right" width="85px" src="https://itsblog.ru/email/logo2.png" />
+            </mj-column>
+        </mj-group>
+    </mj-section>
+</mj-wrapper>
