@@ -37,7 +37,7 @@
                 <mj-group width="100%">                    
                     <mj-column padding="0px" padding-top="20px">
                      <mj-button align="left" color="#212429" padding-left="32px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="12px" line-height="32px">
-                        <img src="https://itsblog.ru/email/time.png" style="width:32px; vertical-align:middle;" /> &nbsp; Estimated time required — 2 minute
+                        <img src="https://itsblog.ru/email/time.png" style="width:32px; vertical-align:middle;" /> &nbsp; Estimated time required — 3 minute
                      </mj-button>                     
                     </mj-column>                    
                 </mj-group>
@@ -51,13 +51,16 @@
                     <mj-column width="30%" padding="0px" padding-right="32px" direction="ltr">
                         <mj-image align="left" width="140px" padding-left="32px" padding-bottom="32px" padding="0px" src="https://itsblog.ru/email/ava.png" />
                     </mj-column>    
-                    <mj-column width="70%" padding-right="32px" direction="ltr">
+                    <mj-column width="70%" padding-right="32px" direction="ltr">                                                
                         <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
                             Hey Tom!
-                        </mj-text>
+                        </mj-text>                                                
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
-                            This is a gentle reminder to fill in the second part of the anonymous company feedback survey by <strong>9th May</strong>.
-                        </mj-text>                        
+                            You have been selected to participate in an anonymous feedback survey intended to improve employee experience at Company.
+                        </mj-text>   
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            Please, fill in the following anonymous <strong>3-minute</strong> survey by <strong>17th April</strong>.
+                        </mj-text>                                       
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
                             Thank you! <br> <strong>Your Company</strong>.
                         </mj-text>                        

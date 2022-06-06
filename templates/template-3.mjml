@@ -1,0 +1,186 @@
+<mjml>
+    
+    <mj-head>
+        <mj-raw>
+            <meta name="color-scheme" content="light"></meta>
+            <meta name="supported-color-schemes" content="light"></meta>
+        </mj-raw>
+        <mj-title>Email title</mj-title>
+        <mj-preview>Preview text email</mj-preview>
+        <mj-attributes>            
+            <mj-all font-family="Helvetica" />            
+        </mj-attributes>
+        <mj-style>
+            
+        </mj-style>       
+    </mj-head>
+
+    <mj-body background-color="#F6F7FA">
+        
+        <mj-include path="./header.mjml" />
+
+        <mj-section padding-top="24px" padding-bottom="24px">
+            <mj-column>
+                <mj-text css-class="test-dark-mode" padding="0" align="center" color="#92A1B2" font-size="14px" font-style="normal" font-weight="700" line-height="20px">
+                    THINGS TO DO, REMINDER                    
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+        <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
+        <mj-section background-color="#FFF" border-radius="16px" padding-top="32px">
+            
+            <mj-group width="100%">
+                <mj-column width="23%" padding-left="16px">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center" width="32px" src="https://itsblog.ru/email/finish-1.png" />
+                </mj-column>
+                <mj-column width="4%">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="8px" align="center" width="20px" src="https://itsblog.ru/email/arrow-2.png" />
+                </mj-column>
+                <mj-column width="22%">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
+                </mj-column>
+                <mj-column width="4%">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="8px" align="center" width="20px" src="https://itsblog.ru/email/arrow-2.png" />
+                </mj-column>
+                <mj-column width="18%">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
+                </mj-column>
+                <mj-column width="4%">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="8px" align="center" width="20px" src="https://itsblog.ru/email/arrow-2.png" />
+                </mj-column>
+                <mj-column width="23%" padding-right="16px">
+                    <mj-image padding-left="30px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
+                </mj-column>
+            </mj-group>            
+
+            <mj-group width="100%">
+                <mj-column width="25%" padding-left="16px" padding-top="16px">
+                    <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Survey to employee<br> & manager</mj-text>
+                </mj-column>
+                <mj-column width="25%" padding-top="16px">
+                    <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Suggestion<br> to manager</mj-text>
+                </mj-column>
+                <mj-column width="25%" padding-top="16px">
+                    <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Second Survey to<br> employee</mj-text>
+                </mj-column>
+                <mj-column width="25%" padding-right="16px" padding-top="16px" vertical-align="middle">
+                    <mj-text  padding-left="20px" padding-right="0px" padding-top="5px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Reuslts</mj-text>
+                </mj-column>
+            </mj-group>
+
+        </mj-section>
+        </mj-wrapper>
+
+        <mj-section padding="0px">
+        <mj-column>
+            <mj-spacer height="16px"/>            
+        </mj-column>
+        </mj-section>
+
+        <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
+            <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 152px">
+            
+                
+                    <mj-column width="58%">
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">May 2022</mj-text>                
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Send employee survey until 17 April</mj-text>
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#92A1B2" font-size="14px" font-style="normal" font-weight="400" line-height="20px">Intended to confirm the risk group’s intent to leave</mj-text>                        
+                        <mj-button align="left" color="#212429" padding-left="32px" padding-top="20px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="12px" line-height="32px">
+                            <img src="https://itsblog.ru/email/time.png" style="width:32px; vertical-align:middle;" /> &nbsp; Estimated time required — 1 minute
+                        </mj-button>                     
+                    </mj-column>   
+                    <mj-column width="42%">    
+                        <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" background-color="#2F80ED" color="white" href="#">
+                            Send survey now
+                        </mj-button>
+                    </mj-column>             
+                
+            </mj-section>
+
+            <mj-section background-color="#FFF" padding="0px">
+                <mj-group width="100%">                    
+                    <mj-column>
+                        <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="0px" padding-right="0px" padding-top="32px" padding-bottom="32px" />
+                    </mj-column>                    
+                </mj-group>
+                </mj-section>
+                <mj-section background-color="#FFF" padding="0px" border-radius=" 0 0 16px 16px" padding-bottom="32px">
+                    <mj-column width="100%" padding-right="32px">     
+                    <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">
+                            <span style="color: #2F80ED">Today</span> is the <span style="color: #2F80ED">last day</span>
+                        </mj-text>                                             
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#92A1B2" font-size="16px" font-style="italic" font-weight="400" line-height="24px">
+                            Please, ignore if you have already sent the survey
+                        </mj-text>
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            This is the final reminder to send the employee survey intended to confirm the risk group’s intent to leave in <strong>May</strong>.
+                        </mj-text>                        
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            If you miss the deadline, <strong>Company</strong> will miss out on key retention analytics. The previously identified risk of attrition will be carried over to the following month.
+                        </mj-text>                        
+                    </mj-column>                    
+                </mj-section>                
+        </mj-wrapper>
+
+        <mj-section padding="0px">
+        <mj-column>            
+            <mj-spacer height="16px" />            
+        </mj-column>
+        </mj-section>
+
+        <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
+            <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 152px">
+            
+                
+                    <mj-column width="58%">
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">May 2022</mj-text>                
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Send employee survey until 17 April</mj-text>
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#92A1B2" font-size="14px" font-style="normal" font-weight="400" line-height="20px">Intended to confirm the risk group’s intent to leave</mj-text>                        
+                        <mj-button align="left" color="#212429" padding-left="32px" padding-top="20px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="12px" line-height="32px">
+                            <img src="https://itsblog.ru/email/time.png" style="width:32px; vertical-align:middle;" /> &nbsp; Estimated time required — 1 minute
+                        </mj-button>                     
+                    </mj-column>   
+                    <mj-column width="42%">    
+                        <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" background-color="#2F80ED" color="white" href="#">
+                            Send survey now
+                        </mj-button>
+                    </mj-column>             
+                
+            </mj-section>
+
+            <mj-section background-color="#FFF" padding="0px">
+                <mj-group width="100%">                    
+                    <mj-column>
+                        <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="0px" padding-right="0px" padding-top="32px" padding-bottom="32px" />
+                    </mj-column>                    
+                </mj-group>
+                </mj-section>
+                <mj-section background-color="#FFF" padding="0px" border-radius=" 0 0 16px 16px" padding-bottom="32px">
+                    <mj-column width="100%" padding-right="32px">     
+                    <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">
+                            <span style="color: #2F80ED">Today</span> is the <span style="color: #2F80ED">last day</span>
+                        </mj-text>                                             
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#92A1B2" font-size="16px" font-style="italic" font-weight="400" line-height="24px">
+                            Please, ignore if you have already sent the survey
+                        </mj-text>
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            This is the final reminder to send the employee survey intended to confirm the risk group’s intent to leave in <strong>May</strong>.
+                        </mj-text>                        
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            If you miss the deadline, <strong>Company</strong> will miss out on key retention analytics. The previously identified risk of attrition will be carried over to the following month.
+                        </mj-text>                        
+                    </mj-column>                    
+                </mj-section>                
+        </mj-wrapper>
+
+        <mj-section padding="0px">
+        <mj-column>            
+            <mj-spacer height="36px" />            
+        </mj-column>
+        </mj-section>
+
+        <mj-include path="./footer.mjml" />
+
+    </mj-body>
+</mjml>

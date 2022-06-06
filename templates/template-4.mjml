@@ -31,7 +31,7 @@
                 <mj-group width="100%">
                     <mj-column>
                         <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">May 2022</mj-text>                
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Anonymous Company Feedback Survey for May</mj-text>                        
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Top Performer Survey for May</mj-text>                        
                     </mj-column>                    
                 </mj-group>
                 <mj-group width="100%">                    
@@ -49,17 +49,17 @@
                 </mj-section>
                 <mj-section background-color="#FFF" padding="0px" direction="rtl">
                     <mj-column width="30%" padding="0px" padding-right="32px" direction="ltr">
-                        <mj-image align="left" width="140px" padding-left="32px" padding-bottom="32px" padding="0px" src="https://itsblog.ru/email/ava.png" />
+                        <mj-image align="left" width="140px" padding-left="32px" padding-bottom="32px" padding="0px" src="https://itsblog.ru/email/ava_2.png" />
                     </mj-column>    
-                    <mj-column width="70%" padding-right="32px" direction="ltr">
+                    <mj-column width="70%" padding-right="32px" direction="ltr">                                                                                          
                         <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
-                            Hey Tom!
-                        </mj-text>
+                            Hey Nick!
+                        </mj-text>                                                
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
-                            This is a gentle reminder to fill in the second part of the anonymous company feedback survey by <strong>9th May</strong>.
-                        </mj-text>                        
+                            Please, fill in the following <strong>2-minute</strong> survey by <strong>17th April</strong> to help Company understand who you consider to be the top performers on your team for the month of May.
+                        </mj-text>                                                        
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
-                            Thank you! <br> <strong>Your Company</strong>.
+                            Thank you! <br> <strong>Denys Grabchak, CPO</strong>.
                         </mj-text>                        
                     </mj-column>                                    
                 </mj-section>
