@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "mjml -w ./templates/*.mjml -o ./templates/dist/"
+    "dev": "mjml -w ./template-mjml/*.mjml -o ./templates/dist/"
   },
   "dependencies": {
     "mjml": "^4.12.0"

@@ -1,0 +1,27 @@
+<mj-wrapper background-color="#EDEDED" border-radius="17px 17px 0 0" padding="1px">
+    <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="32px">
+    
+        <mj-group width="100%">
+            <mj-column>                                
+                <mj-text align="center" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                    This email is a part of an advanced employee retention framework and is intended to help managers retain top performers
+                </mj-text>
+            </mj-column>
+        </mj-group>
+        <mj-group width="100%">
+        <mj-column>            
+            <mj-spacer height="20px" />
+        </mj-column>
+        </mj-group>
+        <mj-group width="100%">
+        <mj-column>                            
+            <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="0px" />                   
+        </mj-group>
+        <mj-column width="100%">
+            <mj-spacer height="20px" />
+            <mj-text align="center" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                © Copyright 2021. All Rights Reserved.
+            </mj-text>
+        </mj-group>
+    </mj-section>
+</mj-wrapper>

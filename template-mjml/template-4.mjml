@@ -51,15 +51,12 @@
                     <mj-column width="30%" padding="0px" padding-right="32px" direction="ltr">
                         <mj-image align="left" width="140px" padding-left="32px" padding-bottom="32px" padding="0px" src="https://itsblog.ru/email/ava_2.png" />
                     </mj-column>    
-                    <mj-column width="70%" padding-right="32px" direction="ltr">                     
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="16px" font-style="italic" font-weight="400" line-height="24px">
-                            Please, ignore if you have already sent the survey
-                        </mj-text>                                                 
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
+                    <mj-column width="70%" padding-right="32px" direction="ltr">                                                                                          
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
                             Hey Nick!
                         </mj-text>                                                
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
-                            This is a gentle reminder to fill in the top performer survey for your team for May by <strong>17th April</strong>. 
+                            Please, fill in the following <strong>2-minute</strong> survey by <strong>17th April</strong> to help Company understand who you consider to be the top performers on your team for the month of May.
                         </mj-text>                                                        
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
                             Thank you! <br> <strong>Denys Grabchak, CPO</strong>.
@@ -83,7 +80,7 @@
         </mj-column>
         </mj-section>
 
-        <mj-include path="./footer-no-social-icon.mjml" />
+        <mj-include path="./footer-employ.mjml" />
 
     </mj-body>
 </mjml>

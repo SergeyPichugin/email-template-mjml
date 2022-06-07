@@ -65,7 +65,7 @@
                     <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Second Survey to<br> employee</mj-text>
                 </mj-column>
                 <mj-column width="25%" padding-right="16px" padding-top="16px" vertical-align="middle">
-                    <mj-text  padding-left="20px" padding-right="0px" padding-top="5px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Reuslts</mj-text>
+                    <mj-text  padding-left="20px" padding-right="0px" padding-top="5px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Results</mj-text>
                 </mj-column>
             </mj-group>
 
@@ -113,10 +113,19 @@
                 </mj-group>
                 </mj-section>
                 <mj-section background-color="#FFF" padding="0px" border-radius=" 0 0 16px 16px" padding-bottom="32px">
-                    <mj-column width="100%" padding-right="32px">                                                 
+                    <mj-column width="100%" padding-right="32px">     
+                    <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">
+                            <span style="color: #2F80ED">Today</span> is the <span style="color: #2F80ED">last day</span>
+                        </mj-text>                                             
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#92A1B2" font-size="16px" font-style="italic" font-weight="400" line-height="24px">
+                            Please, ignore if you have already sent the survey
+                        </mj-text>
                         <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
-                            Share with managers the steps that can mitigate the risk of attrition in their teams (based on the <strong>May</strong> employee survey responses).
-                        </mj-text>                                                
+                            This is the final reminder to send suggestions to managers.
+                        </mj-text>                        
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="20px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="400" line-height="24px">
+                            If you miss the deadline, you will miss out on the crucial analytics for <strong>Company</strong>. All previous efforts for May (employee and manager surveys) will be lost.
+                        </mj-text>                        
                     </mj-column>                    
                 </mj-section>                
         </mj-wrapper>
@@ -127,7 +136,7 @@
         </mj-column>
         </mj-section>
 
-        <mj-include path="./footer-no-social-icon.mjml" />
+        <mj-include path="./footer-employ.mjml" />
 
     </mj-body>
 </mjml>

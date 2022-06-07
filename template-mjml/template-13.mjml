@@ -83,7 +83,7 @@
         </mj-column>
         </mj-section>
 
-        <mj-include path="./footer-no-social-icon.mjml" />
+        <mj-include path="./footer-employ.mjml" />
 
     </mj-body>
 </mjml>
