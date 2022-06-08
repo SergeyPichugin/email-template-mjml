@@ -1,6 +1,11 @@
 <mjml>
     
     <mj-head>
+        <mj-raw>
+            <meta name="color-scheme" content="light"></meta>
+            <meta name="supported-color-schemes" content="light"></meta>
+        </mj-raw>
+        <mj-include path="./head-style.mjml" />
         <mj-style inline="inline">
             .ol-list-red {            
                 counter-reset: myCounter !important;
@@ -55,11 +60,7 @@
                 border-right: 0px solid #FFFFFF !important;
             }
         }
-        </mj-style>
-        <mj-raw>
-            <meta name="color-scheme" content="light"></meta>
-            <meta name="supported-color-schemes" content="light"></meta>
-        </mj-raw>
+        </mj-style>        
         <mj-title>Email title</mj-title>
         <mj-preview>Preview text email</mj-preview>
         <mj-attributes>            

@@ -1,0 +1,6 @@
+<mj-style>
+    :root {
+        color-scheme: light;
+        supported-color-schemes: light;
+    }
+</mj-style>   

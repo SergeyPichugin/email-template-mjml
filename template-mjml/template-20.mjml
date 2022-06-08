@@ -2,17 +2,15 @@
     
     <mj-head>
         <mj-raw>
-            <meta name="color-scheme" content="light"></meta>
-            <meta name="supported-color-schemes" content="light"></meta>
+            <meta name="color-scheme" content="light dark"></meta>
+            <meta name="supported-color-schemes" content="light dark"></meta>
         </mj-raw>
+        <mj-include path="./head-style.mjml" />
         <mj-title>Email title</mj-title>
         <mj-preview>Preview text email</mj-preview>
         <mj-attributes>            
             <mj-all font-family="Helvetica" />            
         </mj-attributes>
-        <mj-style>
-            
-        </mj-style>       
     </mj-head>
 
     <mj-body background-color="#F6F7FA">
