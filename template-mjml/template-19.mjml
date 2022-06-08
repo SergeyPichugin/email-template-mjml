@@ -11,7 +11,14 @@
             <mj-all font-family="Helvetica" />            
         </mj-attributes>
         <mj-style>
-            
+            @media screen and (max-width:480px) {
+                .mobile-bg > div > table {
+                    background: #FFFFFF url('https://itsblog.ru/email/border-mobile-19.png') left 32px / 4px 100px no-repeat !important;
+                    background-position: left 32px !important;
+                    background-repeat: no-repeat !important;
+                    background-size: 4px 128px !important;
+                }                
+             }            
         </mj-style>       
     </mj-head>
 
@@ -26,7 +33,7 @@
         </mj-section>
 
         <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
-            <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px"  padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 100px">
+            <mj-section css-class="mobile-bg" background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px"  padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 100px">
             
                 <mj-group width="100%">
                     <mj-column>
