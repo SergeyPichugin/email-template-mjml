@@ -1,11 +1,16 @@
+<!-- HEADER TEMPLATE -->
 <mj-wrapper background-color="#EDEDED" border-radius="0 0 17px 17px" padding-top="0px" padding-left="1px" padding-right="1px" padding-bottom="1px">
-    <mj-section background-color="#FFF" border-radius="0 0 16px 16px">
+    <mj-section background-color="#FFF" border-radius="0 0 16px 16px" padding-top="24px" padding-bottom="24px">
         <mj-group>
             <mj-column>
-                <mj-image align="left" width="137px" src="https://itsblog.ru/email/logo1.png" />
+                <mj-button align="left" color="#212429" padding-left="32px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="16px" line-height="22px" font-weight="700">
+                    <img src="http://itsblog.ru/wp-content/uploads/2022/06/logo_n_w.png" style="width:24px; vertical-align:middle; margin-top: -2px;" /> Nexient
+                </mj-button>
             </mj-column>
             <mj-column>
-                <mj-image align="right" width="85px" src="https://itsblog.ru/email/logo2.png" />
+                <mj-button align="right" color="#212429" padding-right="32px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="16px" line-height="22px" font-weight="700">
+                    <img src="http://itsblog.ru/wp-content/uploads/2022/06/logo_p_w.png" style="width:24px; vertical-align:middle;" /> Performetry
+                </mj-button>
             </mj-column>
         </mj-group>
     </mj-section>
