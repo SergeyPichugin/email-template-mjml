@@ -129,7 +129,7 @@
                 
                     <mj-column width="58%">
                         <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">May 2022</mj-text>                
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Send employee survey until 17 April</mj-text>
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#212429" font-size="20px" font-style="normal" font-weight="700" line-height="28px">Send manager survey until 17 April</mj-text>
                         <mj-text padding-left="32px" padding-right="0px" padding-top="4px" padding-bottom="0" align="left" color="#92A1B2" font-size="14px" font-style="normal" font-weight="400" line-height="20px">Intended to identify the risk group’s top performers</mj-text>                        
                         <mj-button align="left" color="#212429" padding-left="32px" padding-top="20px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="12px" line-height="32px">
                             <img src="https://itsblog.ru/email/time.png" style="width:32px; vertical-align:middle;" /> &nbsp; Estimated time required — 1 minute
