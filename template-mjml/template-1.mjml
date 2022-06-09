@@ -319,13 +319,7 @@
 
             
         </mj-wrapper>
-
-         <mj-section padding="0px">
-        <mj-column>
-            <mj-spacer height="16px"/>            
-        </mj-column>
-        </mj-section>
-
+        
         <mj-include path="./footer.mjml" />
 
     </mj-body>

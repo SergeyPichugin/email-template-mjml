@@ -1,4 +1,9 @@
 <!-- FOOTER START -->
+<mj-section padding="0px">
+    <mj-column>        
+        <mj-spacer height="12px" />        
+    </mj-column>
+</mj-section>
 <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
     <mj-section background-color="#FFF" border-radius="16px" padding-top="32px" padding-bottom="32px">
     
@@ -34,4 +39,9 @@
         </mj-group>
     </mj-section>
 </mj-wrapper>
+<mj-section padding="0px">
+    <mj-column>        
+        <mj-spacer height="24px" />        
+    </mj-column>
+</mj-section>
 <!-- FOOTER END -->

@@ -77,12 +77,6 @@
             </mj-section>
         </mj-wrapper>
 
-        <mj-section padding="0px">
-        <mj-column>            
-            <mj-spacer height="36px" />            
-        </mj-column>
-        </mj-section>
-
         <mj-include path="./footer-employ.mjml" />
 
     </mj-body>

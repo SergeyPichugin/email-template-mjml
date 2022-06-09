@@ -69,13 +69,7 @@
                     </mj-column>
                 </mj-group>
             </mj-section>
-        </mj-wrapper>
-
-        <mj-section padding="0px">
-        <mj-column>            
-            <mj-spacer height="36px" />            
-        </mj-column>
-        </mj-section>
+        </mj-wrapper>      
 
         <mj-include path="./footer-no-social-icon.mjml" />
 
