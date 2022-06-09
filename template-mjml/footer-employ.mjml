@@ -1,5 +1,6 @@
-<mj-wrapper background-color="#EDEDED" border-radius="17px 17px 0 0" padding="1px">
-    <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="32px">
+<!-- FOOTER START -->
+<mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
+    <mj-section background-color="#FFF" border-radius="16px" padding-top="32px" padding-bottom="32px">
     
         <mj-group width="100%">
             <mj-column>                                
@@ -25,3 +26,4 @@
         </mj-group>
     </mj-section>
 </mj-wrapper>
+<!-- FOOTER END -->

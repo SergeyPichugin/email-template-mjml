@@ -1,8 +1,56 @@
 <mjml>
     
     <mj-head>
-        <mj-include path="./head-style.mjml" />      
-        <mj-style>        
+        <mj-include path="./head-style.mjml" />
+        <mj-style inline="inline">
+            .ol-list-red {            
+                counter-reset: myCounter !important;
+                margin: 0px !important;
+                padding: 0px !important;
+                font-size: 14px !important;            
+            }
+            .ol-list-blue {            
+                counter-reset: myCounter !important;
+                margin: 0px !important;
+                padding: 0px !important;
+                font-size: 14px !important;            
+            }                              
+        </mj-style>
+        <mj-style>
+        .ol-list-red li{
+            list-style-type: none !important;
+        }
+        .ol-list-red li::before {
+            counter-increment: myCounter !important;
+            content:counter(myCounter) !important;
+            color: white !important;
+            background: #F26862 !important;
+            display: inline-block !important;
+            text-align: center !important;
+            margin: 5px 10px !important;
+            line-height: 20px !important;
+            font-size: 12px !important;
+            width: 20px !important;
+            height: 20px !important;
+            border-radius: 50% !important;
+        }
+        .ol-list-blue li{
+            list-style-type: none !important;
+        }
+        .ol-list-blue li::before {
+            counter-increment: myCounter !important;
+            content:counter(myCounter) !important;
+            color: white !important;
+            background: #2F80ED !important;
+            display: inline-block !important;
+            text-align: center !important;
+            margin: 5px 10px !important;
+            line-height: 20px !important;
+            font-size: 12px !important;
+            width: 20px !important;
+            height: 20px !important;
+            border-radius: 50% !important;
+        }
         @media only screen and (max-width: 480px){
             .no-border-right-mobile > table > tbody > tr > td {
                 border-right: 0px solid #FFFFFF !important;
@@ -198,35 +246,43 @@
 
             <mj-section background-color="#FFF" border-radius="0 0 16px 16px" padding-top="0px" padding-bottom="0px">
                     <mj-column css-class="no-border-right-mobile" padding-top="32px" padding-bottom="32px" border-top="1px solid #EDEDED" border-right="1px solid #EDEDED" width="50%">  
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="20px" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
                             Key attrition drivers
-                        </mj-text>
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="16px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/1_red.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Promotion
-                        </mj-button>
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="16px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/2_red.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Manager
-                        </mj-button>
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="0px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/3_red.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Burnout
-                        </mj-button>
+                        </mj-text>    
+                        <mj-text>
+                            <ol class="ol-list-red">
+                                <li>
+                                    Promotion
+                                </li>
+                                <li>
+                                    Manager
+                                </li>
+                                <li>
+                                    Burnout
+                                </li>
+                            </ul>
+                        </mj-text>       
                         <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" border="1px solid #2F80ED" background-color="#FFFFFF" color="#2F80ED" href="#">
                             See all
                         </mj-button>                 
                     </mj-column>
                     <mj-column padding-top="32px" padding-bottom="32px" border-top="1px solid #EDEDED" width="50%">
-                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="20px" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
+                        <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
                             Key attrition drivers
                         </mj-text>    
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="16px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/1_blue.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Promotion
-                        </mj-button>
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="16px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/2_blue.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Manager
-                        </mj-button>
-                        <mj-button align="left" color="#212429" padding-left="32px" padding-bottom="0px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="14px" line-height="20px" font-weight="400">
-                            <img src="https://itsblog.ru/email/3_blue.png" style="width:20px; vertical-align:middle; margin-right: 12px;" />Burnout
-                        </mj-button>
+                        <mj-text>
+                            <ol class="ol-list-blue">
+                                <li>
+                                    Promotion
+                                </li>
+                                <li>
+                                    Manager
+                                </li>
+                                <li>
+                                    Burnout
+                                </li>
+                            </ul>
+                        </mj-text>   
                         <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" border="1px solid #2F80ED" background-color="#FFFFFF" color="#2F80ED" href="#">
                             See all
                         </mj-button>                                  
@@ -255,19 +311,24 @@
 
             <mj-section background-color="#FFF" border-radius="0" padding-top="0px" padding-bottom="0px">
 
-                <mj-column padding-top="0px" padding-bottom="20px" width="100%">  
+                <mj-column padding-top="0px" padding-bottom="32px" width="70%">  
                     <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
                         Gavin Belson’s team
                     </mj-text>             
                     <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
                         100 employees
                     </mj-text>             
-                </mj-column>                
+                </mj-column>
+                <mj-column padding-top="0px" padding-bottom="32px" width="30%">                                                 
+                        <mj-button width="100%" border-radius="8px" padding-top="0px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" border="1px solid #2F80ED" background-color="#FFFFFF" color="#2F80ED" href="#">
+                            See all
+                        </mj-button>                                  
+                </mj-column>
             </mj-section>
 
             <mj-section background-color="#FFF" border-radius="0" padding-top="0px" padding-bottom="0px">
                 <mj-column padding-bottom="0px">     
-                    <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="20px" />
+                    <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="32px" />
                 </mj-column>
             </mj-section>
 
@@ -296,8 +357,8 @@
                 </mj-group>                
             </mj-section>
 
-            <mj-section background-color="#FFF" padding-top="0px" border-radius="0px" padding-top="0px" padding-bottom="0px">                                
-                    <mj-column padding-left="32px" padding-right="32px" vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="20px">
+            <mj-section background-color="#FFF" padding-top="0px" border-radius="0" padding-top="0px" padding-bottom="0px">                                
+                    <mj-column padding-left="32px" padding-right="32px" vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
                         <mj-table width="100%" padding="0px">                           
                             <tr>
                                 <td align="center" width="25%" height="44px" style="padding: 0px; background: #F2F5FE; border-right: 2px solid #FFFFFF; border-radius: 4px 0 0 4px;">0.9 years</td>
@@ -307,15 +368,74 @@
                             </tr>                            
                         </mj-table>
                     </mj-column>                                                
-            </mj-section>         
-            
-            <mj-section background-color="#FFF" padding-top="0px" border-radius="0 0 16px 16px" padding-top="0px" padding-bottom="32px">                                
-                <mj-column padding-top="0px" padding-bottom="0px" width="100%">
-                    <mj-button width="100%" border-radius="8px" padding-top="0px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" border="1px solid #2F80ED" background-color="#FFFFFF" color="#2F80ED" href="#">
-                        See all
-                    </mj-button>                                  
+            </mj-section>
+
+            <mj-section background-color="#FFF" border-radius="0" padding-top="0px" padding-bottom="0px">
+                <mj-column padding-bottom="0px">     
+                    <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="0px" padding-right="0px" padding-top="32px" padding-bottom="32px" />
                 </mj-column>
-            </mj-section>      
+            </mj-section>
+
+            <mj-section background-color="#FFF" border-radius="0" padding-top="0px" padding-bottom="0px">
+
+                <mj-column padding-top="0px" padding-bottom="32px" width="70%">  
+                    <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#212429" font-size="16px" font-style="normal" font-weight="700" line-height="24px">
+                        Jack Barker’s team
+                    </mj-text>             
+                    <mj-text padding-left="32px" padding-right="0px" padding-top="0px" padding-bottom="0" align="left" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                        100 employees
+                    </mj-text>             
+                </mj-column>
+                <mj-column padding-top="0px" padding-bottom="32px" width="30%">                                                 
+                        <mj-button width="100%" border-radius="8px" padding-top="0px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" border="1px solid #2F80ED" background-color="#FFFFFF" color="#2F80ED" href="#">
+                            See all
+                        </mj-button>                                  
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFF" border-radius="0" padding-top="0px" padding-bottom="0px">
+                <mj-column padding-bottom="0px">     
+                    <mj-divider border-width="1px" border-style="solid" border-color="#EDEDED" padding-left="32px" padding-right="32px" padding-top="0px" padding-bottom="32px" />
+                </mj-column>
+            </mj-section>
+
+            <mj-section background-color="#FFF" border-radius="0px" padding-top="0px" padding-bottom="0px">                
+                <mj-group width="100%">
+                    <mj-column padding-left="32px" vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
+                        <mj-text padding="0px" align="center" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                            Median tenure  
+                        </mj-text>
+                    </mj-column>
+                    <mj-column vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
+                    <mj-text padding="0px" align="center" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                        High risk <br>of attrition
+                        </mj-text> 
+                    </mj-column>
+                    <mj-column vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
+                    <mj-text padding="0px" align="center" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                        MoM engagement<br> in work tools
+                        </mj-text>
+                    </mj-column>
+                    <mj-column  padding-right="32px" vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
+                    <mj-text padding="0px" align="center" color="#92A1B2" font-size="12px" font-style="normal" font-weight="400" line-height="16px">
+                        Potential<br> retention saving
+                        </mj-text>
+                    </mj-column>
+                </mj-group>                
+            </mj-section>
+
+            <mj-section background-color="#FFF" padding-top="0px" border-radius="0 0 16px 16px" padding-top="0px" padding-bottom="32px">                                
+                    <mj-column padding-left="32px" padding-right="32px" vertical-align="middle" padding="0px" padding-top="8px" padding-bottom="8px">
+                        <mj-table width="100%" padding="0px">                           
+                            <tr>
+                                <td align="center" width="25%" height="44px" style="padding: 0px; background: #F2F5FE; border-right: 2px solid #FFFFFF; border-radius: 4px 0 0 4px;">1.1 years</td>
+                                <td align="center" width="25%" height="44px" style="padding: 0px; background: #F2F5FE; border-right: 2px solid #FFFFFF;">4 people</td>
+                                <td align="center" width="25%" height="44px" style="padding: 0px; background: #F2F5FE; border-right: 2px solid #FFFFFF;">-13%</td>
+                                <td align="center" width="25%" height="44px" style="padding: 0px; background: #F2F5FE; border-radius: 0 4px 4px 0;">160,000</td>
+                            </tr>                            
+                        </mj-table>
+                    </mj-column>                                                
+            </mj-section>
 
             
         </mj-wrapper>
