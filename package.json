@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "mjml -w ./template-mjml/*.mjml -o ./templates/dist/"
+    "dev": "mjml -w ./template-mjml/*.mjml -o ./templates/dist/",
+    "html-minify": "html-minifier --input-dir templates/dist --output-dir templates/mini-dist --file-ext html --collapse-whitespace --minify-js true --minify-css true"
   },
   "dependencies": {
     "mjml": "^4.12.0"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
   }
 }

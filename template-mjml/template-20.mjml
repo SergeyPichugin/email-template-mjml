@@ -87,7 +87,7 @@
                         <mj-text padding-left="32px" padding-right="0px" padding-top="8px" padding-bottom="0" align="left" color="#212429" font-size="32px" font-style="normal" font-weight="700" line-height="40px">$50,000</mj-text>
                         <mj-text padding-left="32px" padding-right="0px" padding-top="8px" padding-bottom="0" align="left" color="#92A1B2" font-size="14px" font-style="normal" font-weight="400" line-height="20px">Predicted total saving — $600,000</mj-text>
                         <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" background-color="#2F80ED" color="white" href="#">
-                            See results <img src="https://itsblog.ru/email/arrow-btn.png" style="width:20px; vertical-align:middle;" />
+                            See results
                         </mj-button>
                     </mj-column>
                 </mj-group>

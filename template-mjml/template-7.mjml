@@ -67,7 +67,7 @@
                 <mj-group width="100%">
                     <mj-column>                        
                         <mj-button width="100%" border-radius="8px" padding-top="20px" padding-bottom="0" padding-left="32px" padding-right="32px" font-family="Helvetica" font-size="16px" font-weight="700" line-height="24px" font-style="normal" background-color="#2F80ED" color="white" href="#">
-                            Fill in survey now <img src="https://itsblog.ru/email/arrow-btn.png" style="width:20px; vertical-align:middle;" />
+                            Fill in survey now
                         </mj-button>
                     </mj-column>
                 </mj-group>
