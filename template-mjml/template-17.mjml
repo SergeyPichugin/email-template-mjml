@@ -23,7 +23,7 @@
         </mj-section>
 
         <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
-            <mj-section background-color="#FFF" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 100px">
+            <mj-section background-color="#FFF" padding-right="32px" border-radius="16px 16px 0 0" padding-top="32px" padding-bottom="0px" background-url="https://itsblog.ru/email/border-left-long.png" background-repeat="no-repeat" background-position-x="left" background-position-y="32px" background-size="4px 100px">
             
                 <mj-group width="100%">
                     <mj-column>

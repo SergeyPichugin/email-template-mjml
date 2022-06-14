@@ -1,9 +1,9 @@
 <!-- HEADER START -->
 <mj-wrapper background-color="#EDEDED" border-radius="0 0 17px 17px" padding-top="0px" padding-left="1px" padding-right="1px" padding-bottom="1px">
-    <mj-section background-color="#FFF" border-radius="0 0 16px 16px" padding-top="24px" padding-bottom="24px">
+    <mj-section background-color="#FFF" border-radius="0 0 16px 16px" padding-top="24px" padding-bottom="24px" padding-right="32px" padding-left="32px">
         <mj-group>
             <mj-column>
-                <mj-button align="left" color="#212429" padding-left="32px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="16px" line-height="22px" font-weight="700">
+                <mj-button align="left" color="#212429" padding-left="0px" padding-top="0px" padding="0px" inner-padding="0px" background-color="#FFFFFF" border-radius="0px" font-size="16px" line-height="22px" font-weight="700">
                     <img src="http://itsblog.ru/wp-content/uploads/2022/06/logo_n_w.png" style="width:24px; vertical-align:middle; margin-top: -2px; margin-right: 8px;" /> Nexient
                 </mj-button>
             </mj-column>                    
