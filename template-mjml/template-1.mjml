@@ -76,8 +76,8 @@
         
 
         <mj-wrapper background-color="#EDEDED" border-radius="17px" padding="1px">
-        <mj-section background-color="#FFF" border-radius="16px" padding-top="32px" padding-right="16px" padding-left="16px">
-            
+        <mj-section background-color="#FFF" border-radius="16px" padding-top="32px" padding-right="16px" padding-left="16px">                    
+
             <mj-group width="100%">
                 <mj-column width="23%" padding-left="0px">
                     <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center" width="32px" src="https://itsblog.ru/email/finish-1.png" />
@@ -91,14 +91,14 @@
                 <mj-column width="4%">
                     <mj-image padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="8px" align="center" width="20px" src="https://itsblog.ru/email/arrow-2.png" />
                 </mj-column>
-                <mj-column width="18%">
+                <mj-column width="21%">
                     <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
                 </mj-column>
                 <mj-column width="4%">
                     <mj-image padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="8px" align="center" width="20px" src="https://itsblog.ru/email/arrow-2.png" />
                 </mj-column>
-                <mj-column width="23%" padding-right="0px">
-                    <mj-image padding-left="30px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
+                <mj-column width="20%" padding-right="0px">
+                    <mj-image padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0px" align="center"  width="32px" src="https://itsblog.ru/email/empty_ico.png" />
                 </mj-column>
             </mj-group>            
 
@@ -109,11 +109,11 @@
                 <mj-column width="25%" padding-top="16px">
                     <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Suggestion<br> to manager</mj-text>
                 </mj-column>
-                <mj-column width="25%" padding-top="16px">
+                <mj-column width="27%" padding-top="16px">
                     <mj-text padding-left="0px" padding-right="0px" padding-top="0px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Second Survey to<br> employee</mj-text>
                 </mj-column>
-                <mj-column width="25%" padding-right="0px" padding-top="16px" vertical-align="middle">
-                    <mj-text  padding-left="20px" padding-right="0px" padding-top="5px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Results</mj-text>
+                <mj-column width="23%" padding-right="0px" padding-top="16px" vertical-align="middle">
+                    <mj-text padding-left="0px" padding-right="0px" padding-top="8px" padding-bottom="0" align="center" color="#212429" font-size="12px" font-style="normal" font-weight="400" line-height="16px">Results</mj-text>
                 </mj-column>
             </mj-group>
 
